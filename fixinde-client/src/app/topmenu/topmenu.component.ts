@@ -1,6 +1,7 @@
-import * as $ from 'jQuery';
-import { Component, OnInit } from '@angular/core';
 
+
+import { Component, OnInit } from '@angular/core';
+import * as $ from 'jQuery';
 import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 //starting bootstrap
 
@@ -14,7 +15,7 @@ export class TopmenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    
+     
   }
 
 }
