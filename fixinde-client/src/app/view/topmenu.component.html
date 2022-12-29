@@ -1,16 +1,18 @@
 <nav class="navbar navbar-expand-lg clearfix bg-main">
+
 	<!-- Left links -->
-  	<ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+  	<ul class="navbar-nav me-auto mb-2 mb-lg-0 btn-group">
         <li class="nav-item ">
           <a class="nav-link text-white" aria-current="page" href="#">Entidade Empregadora</a>
         </li>
   	</ul>
+
   	<!-- Left links -->
-	<div ngbDropdown class="d-inline-block">
-	  <button  class="btn btn-outline-primary me-2" type="button" id="btn-login" ngbDropdownToggle>
+	<div ngbDropdown container="body" class="d-inline-block btn-group" display="dynamic" placement="bottom-end">
+	  <button  class="btn btn-outline-primary me-2" type="button" id="btn-login" ngbDropdownToggle >
 	    Entrar
 	  </button>
-	  <div ngbDropdownMenu aria-labelledby="btn-login">
+	  <div  ngbDropdownMenu aria-labelledby="btn-login">
   		<form ngbDropdownItem class="px-4 py-3">
 		  <div class="form-group">
 		    <label for="userEmail">Endereço de Email</label>
@@ -26,5 +28,6 @@
 		</form>
 	  </div>
 	</div>
+
 
 </nav>
